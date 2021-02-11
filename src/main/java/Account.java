@@ -22,7 +22,7 @@ public class Account {
         for (Transaction transaction : transactions) {
             sum += transaction.getAmount();
         }
-        return 0;
+        return 1;
     }
 
     public int withDrawAmount(int amount){
